@@ -1,6 +1,7 @@
 /** @type {const} */
 const themeColors = {
   primary: { light: '#0a7ea4', dark: '#0a7ea4' },
+  secondary: { light: '#FF6B6B', dark: '#FF8787' },
   background: { light: '#ffffff', dark: '#151718' },
   surface: { light: '#f5f5f5', dark: '#1e2022' },
   foreground: { light: '#11181C', dark: '#ECEDEE' },
@@ -9,6 +10,8 @@ const themeColors = {
   success: { light: '#22C55E', dark: '#4ADE80' },
   warning: { light: '#F59E0B', dark: '#FBBF24' },
   error: { light: '#EF4444', dark: '#F87171' },
+  accent: { light: '#FF6B6B', dark: '#FF8787' },
 };
 
 module.exports = { themeColors };
+
